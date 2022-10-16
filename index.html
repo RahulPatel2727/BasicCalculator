@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <H1>Calculator</H1>
+    <div id="container">
+        <h5 style="color:red">Please!!! enter only numbers for simple calculation</h5>
+        <!-- box for A input -->
+        A<input type="text" id="x">
+        <pre> <button id="symbol"> </button>  </pre>
+        <!-- box for B input -->
+        B<input type="text" id="y">
+        <br><br>
+        <button onclick="Click('+')">Add</button>
+        <button onclick="Click('-')">Subtract</button>
+        <button onclick="Click('÷')">Divide</button>
+        <button onclick="Click('*')">Multiply</button>
+        <button onclick="Click('%')">Mdulo</button>
+        <br><br>
+        <span style="color: red;">Ans : </span>
+        <span id="ans-el" style="color: green;"></span>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
