@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <H1>Calculator</H1>
+    <H1 >Calculator</H1>
+    <center>
     <div id="container">
         <h5 style="color:red">Please!!! enter only numbers for simple calculation</h5>
         <!-- box for A input -->
@@ -25,9 +26,10 @@
         <button onclick="Click('*')">Multiply</button>
         <button onclick="Click('%')">Mdulo</button>
         <br><br>
-        <span style="color: red;">Ans : </span>
-        <span id="ans-el" style="color: green;"></span>
+        <span style="color: red; margin-left: -100px;" >Ans : </span>
+        <span id="ans-el" style="color: green; position: fixed;"></span>
     </div>
+    </center>
     <script src="logic.js"></script>
 </body>
 
